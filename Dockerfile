@@ -1,5 +1,5 @@
 FROM node:latest
-
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 COPY package*.json ./
@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8030
 
-CMD ["node", "app.js"]
+CMD ["npm", "start"]
