@@ -5,8 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "nodemon app.js"
+    "start":"node app.js"
   },
-  "author": "bhavya jain",
+    "author": "bhavya jain",
   "license": "ISC",
   "dependencies": {
     "cookie-parser": "~1.4.4",
