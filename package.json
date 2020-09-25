@@ -1,10 +1,10 @@
 {
   "name": "booksmangment-api",
   "version": "1.0.0",
-  "description": "webserver api for BMS",
+  "description": "webserver api for Changes are madeBMS",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "test": "nodemon app.js",
     "start" : "node app.js"
   },
     "author": "bhavya jain",
@@ -23,3 +23,4 @@
     "morgan": "~1.9.1"
   }
 }
+  
